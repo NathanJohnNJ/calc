@@ -1,0 +1,54 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    width: 500px;
+    height: 380px;
+    box-shadow: 2px 0px 9px 4px rgb(1, 80, 101);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.screen{
+    background-color: darkgray;
+    box-shadow: inset 0px 0px 4px 4px black;
+    width: 400px;
+    height:100px;
+}
+.topDisplay{
+    text-align: left;
+    width: 400px;
+    font-size: 25px;
+    margin-bottom: -15px;
+    padding-left: 10px;
+    background: none;
+    color: green;
+    height: 40px;
+}
+.display{
+    text-align: right;
+    width: 400px;
+    height: 60px;
+    font-size: 45px;
+    margin-top: -20px;
+    margin-left: -20px;
+    background: none;
+    color:chartreuse;
+}
+.buttons{
+    width: 420px;
+    margin-top: 15px;
+    text-align: left;
+}
+.button{
+    width: 100px;
+    height:40px;
+    margin: 2px;
+    box-shadow: -4px 3px 6px -3px;
+}
+.button:hover{
+    box-shadow: none;
+}
+.button:focus{
+    box-shadow:inset -3px 2px 5px -2px;
+}
